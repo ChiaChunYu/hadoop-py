@@ -1,6 +1,6 @@
 hadoop jar /usr/local/hadoop/share/hadoop/tools/lib/hadoop-streaming-3.2.4.jar \
 -D mapred.reduce.tasks=2 \
--input /user/hadoop/input/numberr.txt \
+-input /user/hadoop/input/number.txt \
 -output /user/tmp/output-mapper5 \
 -mapper "python3 /home/vboxuser/Desktop/sort/mapper.py" \
 -reducer "python3 /home/vboxuser/Desktop/sort/reducer.py" \

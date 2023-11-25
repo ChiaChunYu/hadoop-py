@@ -1,1 +1,5 @@
+./bin/hdfs dfs -put /home/vboxuser/Desktop/search/searchdata1.txt /user/hadoop/input
+./bin/hdfs dfs -put /home/vboxuser/Desktop/search/searchdata2.txt /user/hadoop/input
+./bin/hdfs dfs -put /home/vboxuser/Desktop/search/searchdata3.txt /user/hadoop/input
+./bin/hdfs dfs -put /home/vboxuser/Desktop/search/searchdata4.txt /user/hadoop/input
 ./bin/hdfs dfs -put /home/vboxuser/Desktop/search/searchdata5.txt /user/hadoop/input

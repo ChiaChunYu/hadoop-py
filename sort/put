@@ -1,1 +1,1 @@
-./bin/hdfs dfs -put /home/vboxuser/Desktop/sort/numberr.txt /user/hadoop/input
+./bin/hdfs dfs -put /home/vboxuser/Desktop/sort/number.txt /user/hadoop/input
