@@ -1,5 +1,6 @@
 # hadoop_py
 hadoop version 3.2.4
-## Implemet the Sorting algorithm
-## Implemnt the Seraching algorithm
-## Implemnt the TF-IDF computation algorithm
+use hadoop to implemnt three algorithm
+## Sorting algorithm
+## Seraching algorithm
+## TF-IDF computation algorithm
