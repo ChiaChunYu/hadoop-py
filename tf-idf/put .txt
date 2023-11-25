@@ -1,0 +1,1 @@
+./bin/hdfs dfs -put /home/vboxuser/Desktop/tf-idf/tf-idfdata.txt /user/hadoop/input

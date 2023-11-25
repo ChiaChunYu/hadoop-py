@@ -1,0 +1,5 @@
+hadoop jar /usr/local/hadoop/share/hadoop/tools/lib/hadoop-streaming-3.2.4.jar \
+-input /user/tmp/output-tf-idf1 \
+-output /user/tmp/output-tf-idf2 \
+-mapper "python3 /home/vboxuser/Desktop/tf-idf/mapper2.py" \
+-reducer "python3 /home/vboxuser/Desktop/tf-idf/reducer2.py"

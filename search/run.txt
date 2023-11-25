@@ -1,0 +1,9 @@
+hadoop jar /usr/local/hadoop/share/hadoop/tools/lib/hadoop-streaming-3.2.4.jar \
+-input /user/hadoop/input/searchdata1.txt \
+-input /user/hadoop/input/searchdata2.txt \
+-input /user/hadoop/input/searchdata3.txt \
+-input /user/hadoop/input/searchdata4.txt \
+-input /user/hadoop/input/searchdata5.txt \
+-output /user/tmp/outputsearch \
+-mapper "python3 /home/vboxuser/Desktop/search/mapper.py 'me'" \
+-reducer NONE
